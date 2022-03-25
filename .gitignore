@@ -1,0 +1,8 @@
+/tmp
+
+node_modules
+.env
+.env.*
+
+/db
+awsConfig.json
