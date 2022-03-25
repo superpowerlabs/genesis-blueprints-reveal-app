@@ -35,7 +35,7 @@ When the process is complete, you will be able to see all the metadata on any ma
 
 ### A future block
 
-The chosen block is [14457289](https://etherscan.io/block/14457289). It should be minted around 12pm PST, on Friday, March 25th 2022. 
+The chosen block is [14457200](https://etherscan.io/block/14457200). It should be minted around 12pm PST, on Friday, March 25th 2022. 
 
 When the block is mined this repo will be updated and ready to shuffle the metadata.
 
@@ -52,7 +52,7 @@ When the hash is updated in `input/snapshot.json`, run
 ./shuffler.js --shuffle
 ```
 
-It will generate 8000 metadata json files in `/output`
+It will generate 8000 metadata json files in https://github.com/superpowerlabs/genesis-blueprints-reveal-app/tree/main/output
 
 Anyone can run it again to confirm that the repo is unchanged and the shuffling is fair.
 
