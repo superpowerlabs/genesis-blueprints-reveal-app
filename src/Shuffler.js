@@ -3,7 +3,6 @@ const fs = require('fs-extra')
 const path = require('path')
 const Metashu = require('@ndujalabs/metashu')
 
-const awsManager = require('./AwsManager')
 const snapshot = require('../input/snapshot.json')
 
 class Shuffler {
@@ -13,8 +12,6 @@ class Shuffler {
       return this.shuffleMetadata(opt)
     } else if (opt.verify) {
       return this.verifyFile(opt)
-    } else if (opt.uploadMetadata) {
-      return this.uploadJson(opt)
     }
   }
 
@@ -57,19 +54,6 @@ class Shuffler {
     await metashu.shuffle()
   }
 
-  async uploadJson(opt) {
-    let outputDir = path.resolve(__dirname, '../output/json')
-    let dir = (await fs.readdir(outputDir)).sort()
-    for (let i = (opt.startFrom || 0); i < dir.length; i++) {
-      let item = dir[i]
-      if (/^\d+$/.test(item)) {
-        console.log(i, await awsManager.uploadFile(
-            path.resolve(outputDir, item),
-            'genesis_blueprints/json'
-            ))
-      }
-    }
-  }
 }
 
 module.exports = new Shuffler()

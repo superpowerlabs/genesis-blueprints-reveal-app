@@ -56,12 +56,7 @@ It will generate 8000 metadata json files in https://github.com/superpowerlabs/g
 
 Anyone can run it again to confirm that the repo is unchanged and the shuffling is fair.
 
-#### For admin-only
-As soon as the metadata are shuffled, push the metadata to S3 with
-```
-./shuffler.js --upload-metadata
-```
-and later update the tokenURI in the NFT at https://bscscan.com/token/0x1ec94be5c72cf0e0524d6ecb6e7bd0ba1700bf70#writeContract
+As soon as the metadata are shuffled, push the metadata to S3 with and later update the tokenURI in the NFT at https://bscscan.com/token/0x1ec94be5c72cf0e0524d6ecb6e7bd0ba1700bf70#writeContract
 
 #### 8000 results Vs 8888 items
 
