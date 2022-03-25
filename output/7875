@@ -1,0 +1,102 @@
+{
+  "description": "MOBLAND Blueprint Avatars is a collection of 8000 OG Gangsters randomly generated from assets extracted within the Mobland ecosystem. Use the Blueprint avatars to strategize against other competing syndicates, battle for the production of in-game rewards and assets in your District to win influence to earn a spot in the governance committee. Acquire new powerful in-game assets to help you govern over your empire. Play, Earn, Build, Trade and Strategize by managing your resources wisely.",
+  "image": "https://data.mob.land/genesis_blueprints/png/013360c0a3d50054.png",
+  "name": "Mobland Genesis Blueprint #7875",
+  "attributes": [
+    {
+      "trait_type": "Gender",
+      "value": "Male"
+    },
+    {
+      "trait_type": "Personality",
+      "value": "Reserved"
+    },
+    {
+      "trait_type": "Combat Style",
+      "value": "Bruiser"
+    },
+    {
+      "trait_type": "Gang",
+      "value": "Crenshaw"
+    },
+    {
+      "trait_type": "Trait",
+      "value": "Driver"
+    },
+    {
+      "trait_type": "Macro Ability",
+      "value": "Genesis Smuggler"
+    },
+    {
+      "trait_type": "Chest",
+      "value": "male_italian_chest_doublebreasted_coat"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "male_italian_hair_04_hat"
+    },
+    {
+      "trait_type": "Head",
+      "value": "male_triad_head_06"
+    },
+    {
+      "trait_type": "Legs",
+      "value": "male_yakuza_cargo_sneakers_01"
+    },
+    {
+      "trait_type": "Badge",
+      "value": "Bee"
+    },
+    {
+      "trait_type": "Cybernetic Implant",
+      "value": "None"
+    },
+    {
+      "trait_type": "Health",
+      "value": "62"
+    },
+    {
+      "trait_type": "Attack",
+      "value": "94"
+    },
+    {
+      "trait_type": "Defense",
+      "value": "79"
+    },
+    {
+      "trait_type": "Heal",
+      "value": "91"
+    },
+    {
+      "trait_type": "Soul",
+      "value": "65"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Balanced"
+    },
+    {
+      "trait_type": "Tier",
+      "value": "3"
+    },
+    {
+      "trait_type": "Weapon Type",
+      "value": "Assault Rifle"
+    }
+  ],
+  "extras": {
+    "mp4_sha256": "276101a7088418db3fa326f580fd5c48e7fdc5423077b5781bcdbbee75b41899",
+    "idx": "0x2165",
+    "png_sha256": "013360c0a3d50054e5ba215d088dd7f5df4884f571b857ad498512d4ce224254",
+    "thumbnail": "https://data.mob.land/genesis_blueprints/jpg/013360c0a3d50054-png.jpg"
+  },
+  "animation_url": "https://data.mob.land/genesis_blueprints/mp4/276101a7088418db.mp4",
+  "extend_info": {
+    "videoUrl": "https://data.mob.land/genesis_blueprints/mp4/276101a7088418db.mp4"
+  },
+  "tokenId": 7875
+}

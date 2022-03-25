@@ -1,0 +1,102 @@
+{
+  "description": "MOBLAND Blueprint Avatars is a collection of 8000 OG Gangsters randomly generated from assets extracted within the Mobland ecosystem. Use the Blueprint avatars to strategize against other competing syndicates, battle for the production of in-game rewards and assets in your District to win influence to earn a spot in the governance committee. Acquire new powerful in-game assets to help you govern over your empire. Play, Earn, Build, Trade and Strategize by managing your resources wisely.",
+  "image": "https://data.mob.land/genesis_blueprints/png/07b4d99eecf12b47.png",
+  "name": "Mobland Genesis Blueprint #6598",
+  "attributes": [
+    {
+      "trait_type": "Gender",
+      "value": "Male"
+    },
+    {
+      "trait_type": "Personality",
+      "value": "Arrogant"
+    },
+    {
+      "trait_type": "Combat Style",
+      "value": "Bruiser"
+    },
+    {
+      "trait_type": "Gang",
+      "value": "Moe Moe Gumi"
+    },
+    {
+      "trait_type": "Trait",
+      "value": "Tactician"
+    },
+    {
+      "trait_type": "Macro Ability",
+      "value": "Genesis Smuggler"
+    },
+    {
+      "trait_type": "Chest",
+      "value": "male_mexican_chest_01"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "male_italian_hair_06"
+    },
+    {
+      "trait_type": "Head",
+      "value": "male_russian_head_01"
+    },
+    {
+      "trait_type": "Legs",
+      "value": "male_biker_legs_03"
+    },
+    {
+      "trait_type": "Badge",
+      "value": "Bee"
+    },
+    {
+      "trait_type": "Cybernetic Implant",
+      "value": "None"
+    },
+    {
+      "trait_type": "Health",
+      "value": "53"
+    },
+    {
+      "trait_type": "Attack",
+      "value": "63"
+    },
+    {
+      "trait_type": "Defense",
+      "value": "65"
+    },
+    {
+      "trait_type": "Heal",
+      "value": "67"
+    },
+    {
+      "trait_type": "Soul",
+      "value": "27"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Balanced"
+    },
+    {
+      "trait_type": "Tier",
+      "value": "3"
+    },
+    {
+      "trait_type": "Weapon Type",
+      "value": "Double Pistol"
+    }
+  ],
+  "extras": {
+    "mp4_sha256": "22aadbb9f00683b56b252e70c7df83f1b92a4b7e19c85d1a9385456c373cdcc7",
+    "idx": "0x06ef",
+    "png_sha256": "07b4d99eecf12b478fd5439172b48258a4f35fe6db475643ee7660562715bfee",
+    "thumbnail": "https://data.mob.land/genesis_blueprints/jpg/07b4d99eecf12b47-png.jpg"
+  },
+  "animation_url": "https://data.mob.land/genesis_blueprints/mp4/22aadbb9f00683b5.mp4",
+  "extend_info": {
+    "videoUrl": "https://data.mob.land/genesis_blueprints/mp4/22aadbb9f00683b5.mp4"
+  },
+  "tokenId": 6598
+}

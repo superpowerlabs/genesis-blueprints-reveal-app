@@ -1,0 +1,102 @@
+{
+  "description": "MOBLAND Blueprint Avatars is a collection of 8000 OG Gangsters randomly generated from assets extracted within the Mobland ecosystem. Use the Blueprint avatars to strategize against other competing syndicates, battle for the production of in-game rewards and assets in your District to win influence to earn a spot in the governance committee. Acquire new powerful in-game assets to help you govern over your empire. Play, Earn, Build, Trade and Strategize by managing your resources wisely.",
+  "image": "https://data.mob.land/genesis_blueprints/png/42f0a321c3dce9c5.png",
+  "name": "Mobland Genesis Blueprint #6723",
+  "attributes": [
+    {
+      "trait_type": "Gender",
+      "value": "Male"
+    },
+    {
+      "trait_type": "Personality",
+      "value": "Arrogant"
+    },
+    {
+      "trait_type": "Combat Style",
+      "value": "Tactical"
+    },
+    {
+      "trait_type": "Gang",
+      "value": "The Firm"
+    },
+    {
+      "trait_type": "Trait",
+      "value": "Driver"
+    },
+    {
+      "trait_type": "Macro Ability",
+      "value": "Genesis Smuggler"
+    },
+    {
+      "trait_type": "Chest",
+      "value": "male_italian_chest_doublebreasted_coat"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "male_mexican_hair_07"
+    },
+    {
+      "trait_type": "Head",
+      "value": "male_biker_head_mask_balaclava"
+    },
+    {
+      "trait_type": "Legs",
+      "value": "male_biker_legs_00"
+    },
+    {
+      "trait_type": "Badge",
+      "value": "Bee"
+    },
+    {
+      "trait_type": "Cybernetic Implant",
+      "value": "None"
+    },
+    {
+      "trait_type": "Health",
+      "value": "67"
+    },
+    {
+      "trait_type": "Attack",
+      "value": "46"
+    },
+    {
+      "trait_type": "Defense",
+      "value": "35"
+    },
+    {
+      "trait_type": "Heal",
+      "value": "87"
+    },
+    {
+      "trait_type": "Soul",
+      "value": "61"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Attack"
+    },
+    {
+      "trait_type": "Tier",
+      "value": "2"
+    },
+    {
+      "trait_type": "Weapon Type",
+      "value": "Shotgun"
+    }
+  ],
+  "extras": {
+    "mp4_sha256": "5ee09e3e383a3319df39d83ff426c46903729b4d0c1e0e559d5135e3f1c707cd",
+    "idx": "0x2027",
+    "png_sha256": "42f0a321c3dce9c5480d13feffe068790c663645a14e04b8ce2fd1fbc5a92448",
+    "thumbnail": "https://data.mob.land/genesis_blueprints/jpg/42f0a321c3dce9c5-png.jpg"
+  },
+  "animation_url": "https://data.mob.land/genesis_blueprints/mp4/5ee09e3e383a3319.mp4",
+  "extend_info": {
+    "videoUrl": "https://data.mob.land/genesis_blueprints/mp4/5ee09e3e383a3319.mp4"
+  },
+  "tokenId": 6723
+}

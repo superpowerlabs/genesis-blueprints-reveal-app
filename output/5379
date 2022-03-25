@@ -1,0 +1,102 @@
+{
+  "description": "MOBLAND Blueprint Avatars is a collection of 8000 OG Gangsters randomly generated from assets extracted within the Mobland ecosystem. Use the Blueprint avatars to strategize against other competing syndicates, battle for the production of in-game rewards and assets in your District to win influence to earn a spot in the governance committee. Acquire new powerful in-game assets to help you govern over your empire. Play, Earn, Build, Trade and Strategize by managing your resources wisely.",
+  "image": "https://data.mob.land/genesis_blueprints/png/85522ac42bbeb0e2.png",
+  "name": "Mobland Genesis Blueprint #5379",
+  "attributes": [
+    {
+      "trait_type": "Gender",
+      "value": "Female"
+    },
+    {
+      "trait_type": "Personality",
+      "value": "Skilled"
+    },
+    {
+      "trait_type": "Combat Style",
+      "value": "Defensive"
+    },
+    {
+      "trait_type": "Gang",
+      "value": "Bloodstone Ghosts"
+    },
+    {
+      "trait_type": "Trait",
+      "value": "Saboteur"
+    },
+    {
+      "trait_type": "Macro Ability",
+      "value": "Genesis Smuggler"
+    },
+    {
+      "trait_type": "Chest",
+      "value": "female_biker_chest_07_dress"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "female_aspire_hair_11_longwavy"
+    },
+    {
+      "trait_type": "Head",
+      "value": "female_socal_head_03"
+    },
+    {
+      "trait_type": "Legs",
+      "value": "female_glamour_legs_02"
+    },
+    {
+      "trait_type": "Badge",
+      "value": "Bee"
+    },
+    {
+      "trait_type": "Cybernetic Implant",
+      "value": "None"
+    },
+    {
+      "trait_type": "Health",
+      "value": "45"
+    },
+    {
+      "trait_type": "Attack",
+      "value": "59"
+    },
+    {
+      "trait_type": "Defense",
+      "value": "58"
+    },
+    {
+      "trait_type": "Heal",
+      "value": "42"
+    },
+    {
+      "trait_type": "Soul",
+      "value": "68"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Balanced"
+    },
+    {
+      "trait_type": "Tier",
+      "value": "4"
+    },
+    {
+      "trait_type": "Weapon Type",
+      "value": "Double Submachine Gun"
+    }
+  ],
+  "extras": {
+    "mp4_sha256": "27ef62dab7a44049c2a427b7611a83e314806cc1f1770129f51f650f1500bc6e",
+    "idx": "0x0f31",
+    "png_sha256": "85522ac42bbeb0e2c36a903ccfae39d643321d3edc35770334781633c28af0b7",
+    "thumbnail": "https://data.mob.land/genesis_blueprints/jpg/85522ac42bbeb0e2-png.jpg"
+  },
+  "animation_url": "https://data.mob.land/genesis_blueprints/mp4/27ef62dab7a44049.mp4",
+  "extend_info": {
+    "videoUrl": "https://data.mob.land/genesis_blueprints/mp4/27ef62dab7a44049.mp4"
+  },
+  "tokenId": 5379
+}
