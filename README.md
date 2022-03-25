@@ -4,7 +4,9 @@ A simple tool to shuffle the metadata of the Genesis Blueprint tokens and reveal
 
 ### Introduction
 
-8000 Limited Edition Blueprints have been deployed to BSC at the beginning of November, with generic metadata. This repo manages the process necessary to reveal the attributes and rarity of any NFT in the collection.
+8000 Limited Edition Blueprints have been deployed to BSC on November 30th (https://bscscan.com/tx/0x4149f9c7cbc51cd62c5834ee15754de8794973181c9f334dfeaa04ead1d037ef), with a single attribute `Status: Unrevealed`.
+
+This repo manages the process necessary to reveal the attributes and rarity of any NFT in the collection.
 
 This app will manage the reveal process.
 
