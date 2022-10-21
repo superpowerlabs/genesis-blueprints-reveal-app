@@ -49,10 +49,10 @@ try {
 
 options.isCLI = true
 
-console.info(`Metadata Manager v${pkg.version}`)
+console.info(`Metadata Randomizer v${pkg.version}`)
 
-if (options.help) {
-  console.info(`${pkg.description}
+if (options.help || Object.keys(options).length === 1) {
+  console.info(`A simple tool to randomize the IDs for the reveal of MOBLAND characters.
 
 Options:
   -h, --help               This help.
