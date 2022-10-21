@@ -76,6 +76,30 @@ All the images, are single frames extracted from the videos, since the videos ar
 ./shuffle --verify 89ed87ac7676ff35.png
 ```
 
+## Second reveal: the characters
+
+The reveal of the character will start with the male characters, followed by female characters (due to the higher complexity of the seconds).
+
+### The flow
+
+To prepare the ID for the randomization, run
+```
+./randomizer.js --extract
+```
+it will create 2 JSON files in `/input` with the IDs of male and female characters.
+
+To set up the snapshots, a file containing the block numbers whom hash will be used to shuffle the order of the IDs, run a command like this
+``` 
+./randomizer.js --generate 22383749
+```
+where 22383749 is the initial block number.
+
+As soon as a block happens, the `snapshot2.json` file in `/input` will be updated with the hash of the block. Then, running
+``` 
+./randomizer.js --shuffle
+```
+files called `day_1.txt`, `day_2.txt`, etc. will be generated in `/output2`.  
+The files will contain the 250 IDs that will be revealed the next day.~~~~
 
 ### Credits
 
