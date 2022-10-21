@@ -1,7 +1,6 @@
 const crypto = require('crypto')
 const fs = require('fs-extra')
 const path = require('path')
-const Metashu = require('@ndujalabs/metashu')
 
 const snapshot = require('../input/snapshot.json')
 
