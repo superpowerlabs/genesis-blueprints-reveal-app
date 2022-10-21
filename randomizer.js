@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 const commandLineArgs = require('command-line-args')
-const shuffler = require('./src/Shuffler')
+const randomizer = require('./src/Randomizer')
 const pkg = require('./package.json')
 
 const optionDefinitions = [
@@ -10,24 +10,19 @@ const optionDefinitions = [
     type: Boolean
   },
   {
-    name: 'upload-metadata',
-    alias: 'u',
+    name: 'extract',
+    alias: 'e',
     type: Boolean
   },
   {
-    name: 'start-from',
-    alias: 'f',
+    name: 'generate',
+    alias: 'g',
     type: Number
   },
   {
     name: 'shuffle',
     alias: 's',
     type: Boolean
-  },
-  {
-    name: 'verify',
-    alias: 'v',
-    type: String
   }
 ]
 
@@ -61,17 +56,17 @@ if (options.help) {
 
 Options:
   -h, --help             This help.
-  -u, --upload-metadata  Upload the metadata to S3
-  -s, --shuffle          Starts the shuffle of the metadata
-  -v, --verify           Verifies that an mp4 file has a name consistent 
-                           with its hash. Ex: "... -v filepath"
-  -f, --start-from       During upload, let it start not from 0 index                            
+  -e, --extract          Extracts males and females from the metadata
+                           to prepare the second reveal
+  -g, --generate         Generate the snapshot file used for the randomization
+  -v, --shuffle          Shuffle the data to extract the sets of 250 IDs, from the first
+                           block number to the last inserted in the snapshot2.json file
 `)
   // eslint-disable-next-line no-process-exit
   process.exit(0)
 }
 
-shuffler.run(options)
+randomizer.run(options)
     .then(() => process.exit(0))
     .catch(e => {
       console.error(e.message)
