@@ -55,12 +55,15 @@ if (options.help) {
   console.info(`${pkg.description}
 
 Options:
-  -h, --help             This help.
-  -e, --extract          Extracts males and females from the metadata
-                           to prepare the second reveal
-  -g, --generate         Generate the snapshot file used for the randomization
-  -v, --shuffle          Shuffle the data to extract the sets of 250 IDs, from the first
-                           block number to the last inserted in the snapshot2.json file
+  -h, --help               This help.
+  -e, --extract            Extracts males and females from the metadata
+                             to prepare the second reveal
+  -g, --generate [number]  Generate the snapshot file used for the randomization
+  -v, --shuffle            Shuffle the data to extract the sets of 250 IDs, from the first
+                             block number to the last inserted in the snapshot2.json file
+Examples:
+  ./randomizer.js -e              (extract the IDs by gender) 
+  ./randomizer.js -g 22383749     (generate snapshot2.json starting from that block number)
 `)
   // eslint-disable-next-line no-process-exit
   process.exit(0)
